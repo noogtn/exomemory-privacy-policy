@@ -82,6 +82,12 @@
           入力されたデータは、アプリの機能を提供するためにユーザーの端末内に保存されます。
         </p>
 
+        <h2>端末内処理とオフライン動作</h2>
+        <p>
+          ExoMemory は、ユーザーが入力したテキスト、録音した音声、文字起こし、要約、検索内容をインターネットへ送信しません。
+          主要機能はオフライン環境で動作するよう設計されており、入力情報の保存、整理、検索は端末内で行われます。
+        </p>
+
         <h2>端末内で扱うデータ</h2>
         <ul>
           <li>ユーザーが入力したテキストメモ</li>
@@ -93,7 +99,7 @@
         <h2>権限の利用目的</h2>
         <ul>
           <li>マイク: 音声メモの録音と文字起こしのために使用します。</li>
-          <li>ネットワーク: Android/Expo ランタイムおよびアプリの基本動作のために権限が含まれる場合があります。本アプリは、メモ本文や音声を開発者のサーバーへ送信しません。</li>
+          <li>ネットワーク: Android/Expo ランタイムおよびアプリの基本動作のために権限が含まれる場合があります。本アプリは、ユーザーの入力情報、メモ本文、音声、文字起こし、要約、検索内容を開発者のサーバーへ送信しません。</li>
           <li>通知・音声関連: 音声入力や音声処理に関連する OS 機能のために使用される場合があります。</li>
         </ul>
 
@@ -135,6 +141,13 @@
           stored on the user's device to provide the app's features.
         </p>
 
+        <h2>On-Device Processing and Offline Operation</h2>
+        <p>
+          ExoMemory does not send user-entered text, recorded audio, transcripts, summaries, or
+          search queries to the internet. The core features are designed to work offline, and input
+          storage, organization, and search are performed on the user's device.
+        </p>
+
         <h2>Data Handled On Device</h2>
         <ul>
           <li>Text notes entered by the user</li>
@@ -146,7 +159,7 @@
         <h2>Permissions</h2>
         <ul>
           <li>Microphone: used to record and transcribe voice notes.</li>
-          <li>Network: may be included for Android/Expo runtime and basic app operation. The app does not send note contents or audio to developer-operated servers.</li>
+          <li>Network: may be included for Android/Expo runtime and basic app operation. The app does not send user input, note contents, audio, transcripts, summaries, or search queries to developer-operated servers.</li>
           <li>Audio-related OS features: may be used for voice input and audio processing.</li>
         </ul>
 
